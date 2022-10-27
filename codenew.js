@@ -22,7 +22,7 @@ function gotResults(error, results) {
     
     img = document.getElementById('result_image');
 
-    if (results[0].label == "Barking") {
+    if (results[0].label == "A") {
       img.src = 'A.png';
    
     } 
